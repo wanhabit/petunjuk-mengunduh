@@ -46,3 +46,10 @@ a {
   text-decoration: none;
   color: rgb(0, 119, 255);
 }
+
+img {
+  -webkit-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
