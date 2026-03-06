@@ -1,71 +1,73 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>How to Download</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="icon" href="image/favicon/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="image/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="image/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="image/favicon/favicon-16x16.png">
-    <link rel="manifest" href="image/favicon/site.webmanifest">
-  </head>
-  <body>
-    <div class="line"></div>
-    <div class="logo-contain">
-      <a href="#">
-        <img class="logo" src="image/icon-petunjuk.svg" alt="INFO">
-      </a>  
-    </div>
-    <div class="title-header">
-      <div class="nameTitle name-media">
-        CARA MENGUNDUH FILM
-      </div>
-      <div class="suggest-media">
-        Pelajari cara mengunduh film di beberapa device <br>semua <span class="text-bold">diunduh hanya di dalam apps google drive</span><br>ini mudah!
-      </div>
-      <div class="suggest-title suggest-media">
-        Klik salah satu device mu untuk membuka petunjuk
-      </div>
-    </div>
-    <div class="linkContainer">
-      <a class="link" href="windows/">
-        <img src="image/windows.svg">
-        <div>WINDOWS</div>
-      </a>
-      <a class="link" href="android/">
-        <img src="image/android.svg">
-        <div>ANDROID</div>
-      </a>
-      <a class="link" href="apple/">
-        <img src="image/apple.svg">
-        <div>APPLE</div>
-      </a>
-    </div>
-    <div class="contain-back">
-      <a href="https://wanhabit.com/" class="back-button">
-        BACK
-      </a>
-    </div>
-    <div class="suggest-title2 suggest-media2">
-      Jika pilihan device mu tidak ada, carilah informasi di internet <br>bagaimana cara mengunduh file di google drive. 
-    </div>
-    <div class="telegram-contain suggest-media">
-      <div>Ikuti kami di <a href="https://t.me/wanencode">telegram</a> untuk notifikasi film terbaru</div>
-      <div class="c-wan">&copy;<span class="current-year"></span> WAN&trade;</div>
-    </div>
-    <div class="line-footer"></div>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        const yearElements = document.querySelectorAll('.current-year');
-        const currentYear = new Date().getFullYear();
-        yearElements.forEach(function(element) {
-          element.textContent = currentYear;
-        });
+<head>
+  <title>How to Download</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" href="image/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="image/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="image/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="image/favicon/favicon-16x16.png">
+  <link rel="manifest" href="image/favicon/site.webmanifest">
+</head>
+
+<body>
+  <div class="line"></div>
+  <div class="logo-contain">
+    <a href="#">
+      <img class="logo" src="image/icon-petunjuk.svg" alt="INFO">
+    </a>
+  </div>
+  <div class="title-header">
+    <div class="nameTitle name-media">
+      CARA MENGUNDUH FILM
+    </div>
+    <div class="suggest-media">
+      Pelajari cara mengunduh film di beberapa device <br>semua <span class="text-bold">diunduh hanya di dalam apps
+        google drive</span><br>ini mudah!
+    </div>
+    <div class="suggest-title suggest-media">
+      Klik salah satu device mu untuk membuka petunjuk
+    </div>
+  </div>
+  <div class="linkContainer">
+    <a class="link" href="windows/">
+      <img src="image/windows.svg">
+      <div>WINDOWS</div>
+    </a>
+    <a class="link" href="android/">
+      <img src="image/android.svg">
+      <div>ANDROID</div>
+    </a>
+    <a class="link" href="apple/">
+      <img src="image/apple.svg">
+      <div>APPLE</div>
+    </a>
+  </div>
+  <div class="contain-back">
+    <a href="https://wanhabit.com/" class="back-button">
+      BACK
+    </a>
+  </div>
+  <div class="telegram-contain">
+    <div class="suggest-media">Ikuti <a href="https://notification.wanhabit.com/">notifikasi</a> kami<br>untuk update
+      film terbaru</div>
+    <div class="c-wan">&copy;<span class="current-year"></span> WAN&trade;</div>
+  </div>
+  <div class="line-footer"></div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const yearElements = document.querySelectorAll('.current-year');
+      const currentYear = new Date().getFullYear();
+      yearElements.forEach(function (element) {
+        element.textContent = currentYear;
       });
-    </script>
-  </body>
+    });
+  </script>
+</body>
+
 </html>
